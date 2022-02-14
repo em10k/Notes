@@ -1,0 +1,41 @@
+.label_sidePanel{
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-padding: 10;
+}
+.label_whiteTopMenu{
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-padding: 10;
+    -fx-alignment: center;
+}
+.label_yelTopMenu{
+    -fx-text-fill: yellow;
+    -fx-font-size: 15;
+    -fx-padding: 10;
+}
+.button_round{
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-border-color: white;
+    -fx-background-inserts: 0;
+    -fx-font-size: 10;
+    -fx-text-alignment: center;
+}
+.ch_listItem > .box {
+    -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+}
+.ch_listItem > .box > .mark{
+    -fx-padding: 0.45em 0.45em 0.45em 0.45em;
+}
+.ta_listItem > .scroll-pane{
+    -fx-hbar-policy: NEVER;
+}
+.ta_line{
+    -fx-text-decoration-style: solid;
+}
+.reminder_dis:disabled{
+    -fx-opacity: 0.7;
+}
